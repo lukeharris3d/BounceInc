@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fullscreen Gaussian Splat Viewer</title>
+    <style>
+        /* Basic reset to remove default browser margins and padding */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden; /* Prevents scrollbars from appearing */
+        }
+
+        /* The iframe styling */
+        .fullscreen-iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none; /* Removes the default border around the iframe */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- The iframe element that loads your link -->
+    <iframe 
+        class="fullscreen-iframe"
+        src="https://superspl.at/view?id=b0aba4c1"
+        title="Embedded Gaussian Splat Viewer">
+    </iframe>
+
+</body>
+</html>
