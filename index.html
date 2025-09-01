@@ -7,27 +7,33 @@
     <style>
         /* Basic reset to remove default browser margins and padding */
         body, html {
+            background-color: 1E1E1E;
             margin: 0;
             padding: 0;
             height: 100%;
-            overflow: hidden; /* Prevents scrollbars from appearing */
+            overflow: hidden; 
         }
 
-        /* The iframe styling */
-        .fullscreen-iframe {
+        iframe {
             position: absolute;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
-            border: none; /* Removes the default border around the iframe */
+            border: none; 
         }
     </style>
 </head>
 <body>
 
-    <!-- The iframe element that loads your link -->
-   <iframe id="viewer" width="1260" height="720" allow="fullscreen; xr-spatial-tracking" src="https://superspl.at/s?id=575302f3"></iframe>
+   <iframe 
+       id="viewer" 
+       width="1260" 
+       height="720" 
+       allow="fullscreen" 
+       xr-spatial-tracking" 
+       src="https://superspl.at/s?id=575302f3">
+   </iframe>
 
 </body>
 </html>
