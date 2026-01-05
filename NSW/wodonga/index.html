@@ -1,1 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Wodonga</title>
+    <script type="importmap">
+      {
+        "imports": {
+          "playcanvas": "https://cdn.jsdelivr.net/npm/playcanvas@latest/build/playcanvas.mjs"
+        }
+      }
+    </script>
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/@playcanvas/web-components@latest/dist/pwc.mjs"
+    ></script>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <pc-app antialias="false" high-resolution="false">
+      <pc-asset
+        src="https://cdn.jsdelivr.net/npm/playcanvas/scripts/esm/camera-controls.mjs"
+      ></pc-asset>
+      <pc-asset src="annotation.mjs"></pc-asset>
+      <pc-asset
+        id="site"
+        src="https://lukeharris3d.github.io/BounceInc/NSW/wodonga/wodonga.sog"
+      ></pc-asset>
+      <pc-scene>
+        <pc-entity name="camera root">
+          <pc-entity name="camera" position="38 25 35">
+            <pc-camera  clear-color="0.2 0.2 0.2 1"></pc-camera>
+            <pc-scripts>
+              <pc-script
+                name="cameraControls"
+                attributes='{
+                      "enableFly": false,
+                      "pitchRange": "vec2:-90,0",
+                      "sceneSize": 1,
+                      "zoomRange": "vec2:10,100"
+                  }'
+              ></pc-script>
+            </pc-scripts>
+          </pc-entity>
+        </pc-entity>
+      </pc-entity>
+      <pc-entity position="0 0 0" rotation="0 0 180">
+        <pc-splat asset="site"></pc-splat>
+      </pc-entity>
+        <pc-entity name="annotation1" position="-17 1.5 2">
+          <pc-scripts>
+            <pc-script
+              name="annotation"
+              attributes='{
+                  "label": "H",
+                  "title": "High Performance Zone",
+                  "text": "  ",
+                  "cameraPos": [0, 0, 0]
+              }'
+            ></pc-script>
+          </pc-scripts>
+        </pc-entity>
+        <pc-entity name="annotation2" position="-16.5 1 12.5">
+          <pc-scripts>
+            <pc-script
+              name="annotation"
+              attributes='{
+                  "label": "A",
+                  "title": "Air Bag",
+                  "text": "",
+                  "cameraPos": [0, 0, 0]
+              }'
+            ></pc-script>
+          </pc-scripts>
+        </pc-entity>
+        <pc-entity name="annotation3" position="-17.5 2.5 -10">
+          <pc-scripts>
+            <pc-script
+              name="annotation"
+              attributes='{
+                  "label": "W",
+                  "title": "Wall Climb",
+                  "text": "",
+                  "cameraPos": [0, 0, 0]
+              }'
+            ></pc-script>
+          </pc-scripts>
+        </pc-entity>
+        <pc-entity name="annotation4" position="-10 1 10">
+          <pc-scripts>
+            <pc-script
+              name="annotation"
+              attributes='{
+                  "label": "B",
+                  "title": "Basketball",
+                  "text": "",
+                  "cameraPos": [0, 0, 0]
+              }'
+            ></pc-script>
+          </pc-scripts>
+        </pc-entity>
+        <pc-entity name="annotation5" position="1.5 0 8">
+          <pc-scripts>
+            <pc-script
+              name="annotation"
+              attributes='{
+                  "label": "F",
+                  "title": "Free Jump",
+                  "text": "",
+                  "cameraPos": [0, 0, 0]
+              }'
+            ></pc-script>
+          </pc-scripts>
+        </pc-entity>
+        <pc-entity name="annotation6" position="1.5 0 -4">
+          <pc-scripts>
+            <pc-script
+              name="annotation"
+              attributes='{
+                  "label": "D",
+                  "title": "Dodgeball",
+                  "text": "",
+                  "cameraPos": [0, 0, 0]
+              }'
+            ></pc-script>
+          </pc-scripts>
+        </pc-entity>
+        <pc-entity name="annotation7" position="15 2 4">
+          <pc-scripts>
+            <pc-script
+              name="annotation"
+              attributes='{
+                  "label": "M",
+                  "title": "Mini Bounce",
+                  "text": "",
+                  "cameraPos": [0, 0, 0]
+              }'
+            ></pc-script>
+          </pc-scripts>
+        </pc-entity>
+        <pc-entity name="annotation8" position="2 -1 -11.5">
+          <pc-scripts>
+            <pc-script
+              name="annotation"
+              attributes='{
+                  "label": "A",
+                  "title": "Air Track",
+                  "text": "",
+                  "cameraPos": [0, 0, 0]
+              }'
+            ></pc-script>
+          </pc-scripts>
+        </pc-entity>
+      </pc-scene>
+    </pc-app>
+  </body>
+</html>
 
