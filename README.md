@@ -5,6 +5,8 @@ Qld
 https://lukeharris3d.github.io/BounceInc/queensland/hendra/
 
 https://lukeharris3d.github.io/BounceInc/queensland/burleigh/
+https://lukeharris3d.github.io/BounceInc/queensland/burleigh_xpark
+
 
 NSW
 
@@ -19,6 +21,8 @@ https://lukeharris3d.github.io/BounceInc/vic/essidonfields/
 https://lukeharris3d.github.io/BounceInc/vic/gleniris
 
 https://lukeharris3d.github.io/BounceInc/vic/heidelberg
+https://lukeharris3d.github.io/BounceInc/vic/heidelberg_xpark
+
 
 
 Tas
