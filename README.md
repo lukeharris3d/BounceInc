@@ -5,7 +5,9 @@ Qld
 https://lukeharris3d.github.io/BounceInc/queensland/hendra/
 
 https://lukeharris3d.github.io/BounceInc/queensland/burleigh/
-https://lukeharris3d.github.io/BounceInc/queensland/burleigh_xpark
+https://lukeharris3d.github.io/BounceInc/queensland/burleigh_xpark/
+https://lukeharris3d.github.io/BounceInc/queensland/burleigh_mini/
+
 
 
 NSW
